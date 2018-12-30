@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 class Nim extends Component {
   constructor (props) {
     super(props)
-
     this.state = {
       barsCount: this.props.count,
       currentPlayer : 1
